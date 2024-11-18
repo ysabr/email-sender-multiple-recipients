@@ -60,9 +60,9 @@ I hope this message finds you well. Attached is my resume and cover letter. I am
 Please let me know if you need any further information.
 
 Best regards,
-Youssef Sabr
+your_FULL_NAME_name
 '''
-attachments = ['resume_software_engineer_Youssef_Sabr.pdf', 'Cover_letter_Youssef_sabr.pdf']
+attachments = ['resume_software_engineer.pdf', 'Cover_letter_.pdf']
 delay = 120
 # Send emails
 send_emails(smtp_server, smtp_port, sender_email, sender_password, recipients_file, subject, body, attachments, delay)
