@@ -48,8 +48,8 @@ def send_emails(smtp_server, smtp_port, sender_email, sender_password, recipient
 # Configuration
 smtp_server = 'smtp.gmail.com'  # Correct SMTP server for Gmail
 smtp_port = 587
-sender_email = 'your_gmail@gmail.com'
-sender_password = 'your_password'  # Replace with your app-specific password
+sender_email = 'youssefsabr57@gmail.com'
+sender_password = 'afqp ibac blyu gbpd'  # Replace with your app-specific password
 recipients_file = 'emails.txt'
 subject = 'Application for Software Engineering Internship'
 body = '''
@@ -62,7 +62,7 @@ Please let me know if you need any further information.
 Best regards,
 Youssef Sabr
 '''
-attachments = ['resume_software_engineer.pdf', 'Cover_letter.pdf']
+attachments = ['resume_software_engineer_Youssef_Sabr.pdf', 'Cover_letter_Youssef_sabr.pdf']
 delay = 120
 # Send emails
 send_emails(smtp_server, smtp_port, sender_email, sender_password, recipients_file, subject, body, attachments, delay)
